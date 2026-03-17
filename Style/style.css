@@ -65,6 +65,10 @@ footer.container {
     width: 100%;
 }
 
-.linkMiddle {
+button {
     background-color: bisque;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
 }
