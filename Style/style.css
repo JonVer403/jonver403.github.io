@@ -66,11 +66,18 @@ footer.container {
 }
 
 button {
-    background-color: rgb(247, 204, 153);
+    background-color: #fff5cb;
     border: 2px solid black;
     border-radius: 5px;
     padding: 5px 10px;
+    box-shadow: 2px 2px 5px black;
 }
 button:hover {
-    background-color: rgb(228, 182, 127);
+    background-color: #ffe5b5;
+    box-shadow: 0.5px 0.5px 5px black;
+}
+
+button:active {
+    background-color: #ffd7a3;
+    box-shadow: 1px 1px 5px black inset;
 }
